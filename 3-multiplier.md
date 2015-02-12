@@ -25,7 +25,7 @@ The "clock" for this example will be the push-button BUTTON2,
 which will drive the clock inputs of the registers. Every button
 push creates a clock edge, which will drive the inputs forward.
 
-![Overview of pipelines](resources/images/multiplier.svg)
+![Overview of pipelines](resources/images/multiplier.png)
 
 Multiplication algorithm
 ------------------------
