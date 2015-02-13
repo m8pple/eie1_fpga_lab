@@ -29,19 +29,19 @@ high-level design before-hand.
 This document
 -------------
 
-The online document is the lab specification, and it
-is a "live" specification. There may well be
+The online document [https://github.com/m8pple/eie1_fpga_lab](https://github.com/m8pple/eie1_fpga_lab)
+is the lab specification, and it is a "live" specification. There may well be
 errors in it (though not intentionally), or
 questions about what it means. If you have suggestions
 for how to improve it, you are encouraged to:
 
-- Raise an issue via github:
+- [Raise an issue via github](https://github.com/m8pple/eie1_fpga_lab/issues/new):
   - What is the problem?
   - What did you expect to happen or want to do?
   - What methods have you tried, and how did they fail?
   - Do you already know what the solution is?
 
-- Discuss any issues already on github:
+- Discuss [any issues already on github](https://github.com/m8pple/eie1_fpga_lab/issues/new):
   - add useful information you have found
   - suggest solutions that worked for you
   - _usefully_ contribute in any other way
