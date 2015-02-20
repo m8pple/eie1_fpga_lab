@@ -87,7 +87,7 @@ is suggested that you:
     multiplier as a contained block.
 4. Use the registered top-level as the basis for the pipelined
     top-level, with a new pipelined multiplier block.
-    
+
 Comments
 --------
 
@@ -140,13 +140,14 @@ split into multiple stages, so:
 - A new input can be supplied each cycle.
 - Once the pipeline is full, a new result can be
   delivered each cycle.
-  
+
 So the _latency_ of the calculation may increase,
 but if the clock rate rises, then the _throughput_
 of the circuit will increase at the same rate.
 Consider two alternative multipliers:
 - A 50MHz single-cycle multiplier
 - A 200MHz five-stage multiplier
+
 Which has the higher throughput (calculations/sec)
 and which has the higher latency (sec/calculation)?
 
