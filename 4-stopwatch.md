@@ -17,10 +17,15 @@ the following functionality:
   showing elapsed time in decimal, with two
   fractional digits, i.e. a precision of 10 ms.
 
-- Push-button BUTTON2 pauses the display,
-  but does not stop the stopwatch counter,
-  essentially providing the [split](http://en.wikipedia.org/wiki/Stopwatch)
-  functionality of a stopwatch.
+- Push-button BUTTON2 pauses the display for as
+  long as it is pushed (held down), but does not stop
+  the stopwatch counter, providing something similar to the
+  [split](http://en.wikipedia.org/wiki/Stopwatch) functionality
+  of a stopwatch. Here the split time always reflects the time
+  between when the "start" and "split" button are presses,
+  not the time between consecutive presses of "split". _Note: my conception of split is a little
+  different than the standard one; thanks to @bingthegreat93 for
+  [highlighting the ambiguity](https://github.com/m8pple/eie1_fpga_lab/issues/2)._
 
 - While the precision of the stopwatch is 10ms, the
   [accuracy](http://en.wikipedia.org/wiki/Accuracy_and_precision)
@@ -28,6 +33,9 @@ the following functionality:
   know how accurate the 50MHz clock is. Your stopwatch
   should introduce no more than 1% error on top of
   the clock error.
+
+You do not need to consider cases where users press more
+than one button at the same time.
 
 This is a more complicated task, as it involves
 multiple steps. As an engineer, you need to break
