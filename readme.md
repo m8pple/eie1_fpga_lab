@@ -1,4 +1,4 @@
-EIE1 FPGA Lab : 2014 Spring
+EIE1 FPGA Lab : 2015 Spring
 ===========================
 
 The goals of this lab are to:
@@ -205,5 +205,5 @@ to talk about:
 Make sure you document your progress and
 decisions as you go; you should be able to
 demonstrate that your solutions are functional
-because you worked well, not just because you
-worked hard and/or got lucky.
+because you worked intelligently and applied good
+practises, not just because you worked hard and/or got lucky.
