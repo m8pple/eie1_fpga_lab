@@ -110,15 +110,15 @@ so should be familiar with the concepts of:
 Target platform
 ---------------
 
-The target platform is the [DE0](de0.terasic.com) from
+The target platform is the [DE0](http://de0.terasic.com) from
 Terasic. The computational heart of the device is a
-[Cyclone III](http://www.altera.co.uk/devices/fpga/cyclone3/overview/cy3-overview.html)
+[Cyclone III](https://www.altera.com/products/fpga/cyclone-series/cyclone-iii/overview.html)
 EP3C16F484C6 FPGA. The part number can be decoded as:
 
 - EP3C : indicates this is from the Cyclone III family
 - EP3C*16* : the specific configuration of the device, describing the number of compute resources it contains
-- F484 : the [package](http://www.altera.co.uk/literature/hb/cyc3/cyc3_ciii51015.pdf) and pin-configuration of the device
-- C6 : the [speed-grade](http://www.altera.co.uk/devices/fpga/cyclone3/overview/cy3-overview.html#T3_Note_1) of the device
+- F484 : the package and pin-configuration of the device
+- C6 : the speed-grade of the device
 
 The FPGA architecture is described in the [Cyclone III handbook](resources/docs/cyclone3_handbook.pdf)
 with the main components of interest for this lab being:
@@ -139,7 +139,7 @@ There are also block RAMs and DSP blocks, but we
 will not explicitly make use of them in this lab.
 
 The DE0 platform is a teaching platform developed by Altera
-as part of their [university programme](http://www.altera.co.uk/education/univ/materials/boards/de0/unv-de0-board.html),
+as part of their [university programme](https://www.altera.com/support/training/university/overview.html),
 so it contains a wide spectrum of input and output
 devices, including:
 
