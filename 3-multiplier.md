@@ -6,7 +6,7 @@ Back to [main](readme.md)
 ========================
 
 Multiplication is a form of repeated addition, and
-while there are some [multiplier blocks](http://www.altera.co.uk/devices/fpga/cyclone3/overview/architecture/cy3-dspblocks.html)
+while there are some [multiplier blocks](https://www.altera.com/products/fpga/cyclone-series/cyclone-ii/features/move-2-cyclone3/cy3-dspblocks.html)
 built into the FPGA, it is useful to know how they are constructed.
 The notion of pipelining is also an important concept
 for your project - how can we (and why do we) split
@@ -105,7 +105,7 @@ see will remain stable, even as the multiplier
 is calculating the result.
 
 Try running a timing-driven simulation of the combinatorial
-multiplier (i.e. a simulation that takes into accoung gate
+multiplier (i.e. a simulation that takes into account gate
 delays) using a sequence of pairs of numbers,
 and notice that it takes time for the multiplier
 output to settle. The settling time is determined
