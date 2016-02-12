@@ -58,7 +58,7 @@ Notes and hints
 - You have already built a compatible counter out of
   full-adders in a previous lab.
 
-- A D flip-flip will maintain state between cycles.
+- A D flip-flop will maintain state between clock cycles.
 
 - Simulation still works, and you should use it. You
   should be able to simulate your design in the
