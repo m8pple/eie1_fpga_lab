@@ -11,7 +11,7 @@ together lights. The DE0 contains 10 lights and 10 switches,
 so "glue" the switches to the lights - when you toggle each
 switch the corresponding LED should turn off and on.
 
-Section 4.2 of the [DE0 user manual](DE0_User_manual.pdf) describes
+Section 4.2 of the [DE0 user manual](resources/docs/DE0_User_manual.pdf) describes
 the operation of the switches and LEDs, and also describes
 exactly which pin of the FPGA each switch or LED is
 connected to. For example, the rightmost toggle switch,
@@ -92,7 +92,7 @@ it over to the FPGA, which will be via the USB cable.
 4. Hit "Start"
 
 This process is also covered in section 6 of
-the [DE0 Getting Started Guide](docs/DE0_Getting_Started.pdf).
+the [DE0 Getting Started Guide](resources/docs/DE0_Getting_Started.pdf).
 
 Debugging
 ---------
