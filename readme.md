@@ -1,4 +1,4 @@
-EIE1 FPGA Lab : 2015 Spring
+EIE1 FPGA Lab : 2016 Spring
 ===========================
 
 The goals of this lab are to:
@@ -119,6 +119,10 @@ EP3C16F484C6 FPGA. The part number can be decoded as:
 - EP3C*16* : the specific configuration of the device, describing the number of compute resources it contains
 - F484 : the package and pin-configuration of the device
 - C6 : the speed-grade of the device
+
+The Cyclone III is an older device, and Altera have now
+deprecated it. So you will need to use the older of the
+two versions of Quartus installed in the lab.
 
 The FPGA architecture is described in the [Cyclone III handbook](resources/docs/cyclone3_handbook.pdf)
 with the main components of interest for this lab being:

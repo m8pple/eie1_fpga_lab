@@ -22,15 +22,23 @@ to output pin "
 What you need to do is:
 
 1. Create a new Quartus project called "glue_logic", making
-   sure the target  device matches the FPGA on the DE0.
+   sure the target device matches the FPGA on the DE0. _Note: use
+   the older of the two versions of Quartus, as the newer ones
+   do not support Cyclone III._
+   
 2. Create a top-level block diagram called "glue_logic" with
    a 10-bit input port and a 10-bit output port.
+   
 3. Within the block diagram, wire the input bus to the
    output bus.
+   
 4. Assign the switch pins to your input port, and
    the LED pins to your output port.
+   
 5. Compile and synthesise the design into a bit-file.
+
 6. Configure the FPGA with the bit-file.
+
 7. Marvel at your ability to control light itself!
 
 The only steps you haven't performed before are
